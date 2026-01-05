@@ -9,4 +9,10 @@
     <AssemblyName>URL Launcher</AssemblyName>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="link">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

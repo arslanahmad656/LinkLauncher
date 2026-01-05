@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("URL Launcher")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00211582bc7e457252e551ace868e5f5af25c0c9")]
 [assembly: System.Reflection.AssemblyProductAttribute("URL Launcher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("URL Launcher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

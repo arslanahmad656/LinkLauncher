@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "D:\\CODE\\Utilities\\link-launcher\\URLLauncher.csproj",
-        "projectName": "URLLauncher",
+        "projectName": "URL Launcher",
         "projectPath": "D:\\CODE\\Utilities\\link-launcher\\URLLauncher.csproj",
         "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
         "outputPath": "D:\\CODE\\Utilities\\link-launcher\\obj\\",
@@ -51,6 +51,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.22, )",
+              "autoReferenced": true
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -68,6 +76,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
         }
       }
     }
